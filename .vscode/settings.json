@@ -5,5 +5,14 @@
     "source.organizeImports": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "files.eol": "\n"
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/node_modules": false
+  },
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": false
+  }
 }
