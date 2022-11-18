@@ -14,5 +14,6 @@
   },
   "files.watcherExclude": {
     "**/node_modules/**": false
-  }
+  },
+  "css.lint.unknownAtRules": "ignore"
 }
