@@ -1,4 +1,5 @@
 import * as NextImage from 'next/image';
+import { AuthProvider } from '../context/auth/AuthContext';
 import '../styles/tailwind.css';
 
 const BREAKPOINTS_INT = {
@@ -38,6 +39,14 @@ Object.defineProperty(NextImage, 'default', {
     this._value = value;
   },
 });
+
+export const decorators = [
+  (Story) => (
+    <AuthProvider>
+      <Story />
+    </AuthProvider>
+  ),
+];
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
