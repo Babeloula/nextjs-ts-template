@@ -15,7 +15,7 @@ const SearchResult: React.FC<ISearchResult> = ({
       {...divProps}
       className={`flex flex-col w-5/6 max-w-screen-md space-y-1 ${className} `}
     >
-      <Link href={url}>
+      <Link legacyBehavior href={url}>
         <a
           className="cursor:pointer hover:underline"
           target="_blank"
