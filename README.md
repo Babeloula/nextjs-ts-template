@@ -1,4 +1,12 @@
+## Simplified Google Copycat in NextJS & Typescript
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+This Google Copycat contains the following features:
+
+- [x] Simplified Search Engine
+- [x] StoryBook Configuration
+- [x] Tailwind CSS Configuration
 
 ## Getting Started
 
